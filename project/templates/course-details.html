@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<!-- Mirrored from demo.forward-web.com/grade-a/course-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Nov 2019 14:10:51 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grade A. - Online courses HTML Template</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/normalize.css ' %}">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap.min.css ' %}">
+  <!-- <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap-rtl.min.css ' %}"> -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap-dropdownhover.min.css ' %}">
+  <link rel="stylesheet" type="text/css" href="{% static '/css/bootstrap-better-nav.min.css ' %}">
+  <!-- animsition.css ' %} -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/animsition.min.css ' %}">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/font-awesome.min.css ' %}">
+  <!-- Animate.css ' %} -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/animate.min.css ' %}">
+  <!-- Fancybox.css ' %} -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/jquery.fancybox.min.css ' %}">
+  <link rel="stylesheet" type="text/css" href="{% static '/css/fancybox/thumbs.css ' %}">
+  <!-- Theme style -->
+  <link rel="stylesheet" type="text/css" href="{% static '/css/style.css ' %}">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="{% static '/images/icon/apple-icon-57x57.png ' %}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{% static '/images/icon/apple-icon-60x60.png ' %}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{% static '/images/icon/apple-icon-72x72.png ' %}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{% static '/images/icon/apple-icon-76x76.png ' %}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{% static '/images/icon/apple-icon-114x114.png ' %}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{% static '/images/icon/apple-icon-120x120.png ' %}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{% static '/images/icon/apple-icon-144x144.png ' %}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{% static '/images/icon/apple-icon-152x152.png ' %}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static '/images/icon/apple-icon-180x180.png ' %}">
+  <link rel="icon" type="image/png" sizes="192x192"  href="{% static '/images/icon/android-icon-192x192.png ' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static '/images/icon/favicon-32x32.png ' %}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{% static '/images/icon/favicon-96x96.png ' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static '/images/icon/favicon-16x16.png ' %}">
+  <link rel="manifest" href="https://demo.forward-web.com/manifest.js ' %}on">
+  <meta name="msapplication-TileColor" content="#0c2461">
+  <meta name="msapplication-TileImage" content="https://arfascinateshelters.com/omplack/365">
+  <meta name="theme-color" content="#0c2461">
+
+  <!--[if lt IE 9]>
+  <script src="{% static '/js/html5shiv.js ' %}"></script>
+  <script src="{% static '/js/respond.min.js ' %}"></script>
+  <![endif]-->       
+</head>
+<body class="loading">
+  <!--<div class="loading-container">-->
+  <!--  <div id="loader"></div>  -->
+  <!--</div>-->
+  <div class="animsition-overlay" data-animsition-overlay="true">
+
+  <nav class="main-menu">
+    <div class="top-bar">
+     <div class="container">
+      <ul class="nav navbar-nav pull-left">
+       <li><a href="#">About Us</a></li>
+       <li><a href="#">User Policies</a></li>
+       <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+       <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+       <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+      </ul>    
+     </div>
+    </div>
+    <div class="main-navbar">
+     <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> <!--/.navbar-toggle-->
+        <a href="index.html" class="navbar-brand animsition-link">
+          <img src="{% static '/images/logo.png ' %}" class="img-responsive logo-lg" alt="Grade A. - Online courses HTML Template" height="70">
+          <img src="{% static '/images/logo-small.png ' %}" class="img-responsive logo-sm" alt="Grade A. - Online courses HTML Template" height="50">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+
+        <ul class="nav navbar-nav pull-right">
+          <li class="dropdown dropdown-main">
+            <a href="index.html" class="dropdown-toggle animsition-link" data-hover="dropdown" data-toggle="dropdown">
+            Home <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover dropdown-animation animated fadeIn">
+              <li><a href="index2.html" class="animsition-link">Home 2</a></li>
+              <li><a href="index3.html">Home 3</a></li>
+            </ul>            
+          </li>
+          <li class="dropdown dropdown-main">
+            <a href="about.html" class="dropdown-toggle animsition-link" data-hover="dropdown" data-toggle="dropdown">About Us <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover dropdown-animation animated fadeIn">
+              <li><a href="#">Our vision</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Our team</a></li>
+              <li><a href="#">Support us</a></li>
+            </ul>            
+          </li>
+          <li class="dropdown mega-dropdown dropdown-main active">
+            <a href="courses.html" class="dropdown-toggle animsition-link" data-toggle="dropdown">Courses <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover mega-dropdown-menu row dropdown-animation animated fadeIn">
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">ASP</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">ASP</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">ASP</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <ul>
+                  <li>
+                    <img src="{% static '/images/courses-bg.png ' %}" class="img-responsive screen-img mt10">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown mega-dropdown dropdown-main">
+            <a href="resources.html" class="dropdown-toggle animsition-link" data-toggle="dropdown">Resources <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover mega-dropdown-menu row dropdown-animation animated fadeIn">
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web design</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">Angular</a></li>
+                  <li><a href="#">React</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">ASP</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">C#</a></li>
+                  <li><a href="#">Node.js ' %}</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Mobile Apps</li>
+                  <li><a href="#">Android Development</a></li>
+                  <li><a href="#">IOS Development</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">Ionic</a></li>
+                  <li><a href="#">Kotlin</a></li>
+                  <li><a href="#">React Native</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <ul>
+                  <li>
+                    <img src="{% static '/images/resources-bg.png ' %}" class="img-responsive screen-img mt10">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li><a href="contact.html" class="animsition-link">Contact</a></li>
+        </ul> <!--/.nav -->
+
+      </div><!-- /.navbar-collapse-->
+     </div>   
+    </div>
+  </nav>
+
+  <section class="page-banner left">
+    <div class="container">
+      <h1>Prepare your next project files</h1>
+      <p><span>Instructor: </span> Ead Hassan <span>Categories: </span> Web development, HTML</p>
+      <div class="page-info">
+        <ul class="pull-left breadcrumb">
+          <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+          <li class="active">Courses</li>
+        </ul>
+        <ul class="pull-right social-share">
+          <li><a href="index.html"><i class="fa fa-lg fa-facebook"></i></a></li>
+          <li><a href="index.html"><i class="fa fa-lg fa-twitter"></i></a></li>
+          <li><a href="index.html"><i class="fa fa-lg fa-google-plus"></i></a></li>
+          <li><a href="index.html"><i class="fa fa-lg fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div><!--/.container-->
+  </section>
+
+  <section class="inner-page">
+    <div class="container">
+      <div class="page-content">
+        <div class="row">
+          <div class="hidden-lg hidden-md col-sm-12">
+            <button type="button" class="btn btn-default btn-block show-sidebar dropdown-toggle collapsed" data-toggle="collapse" data-target="#sidebar-container" aria-expanded="false">Filter List <i class="fa fa-angle-down"></i></button>
+          </div>
+          <div class="col-lg-3 col-md-4 collapse in" id="sidebar-container">
+            <div class="page-sidebar">
+
+              <div class="sidebar-widget">
+                <h5 class="widget-title">Programming languages</h5>
+                <div class="widget-body">
+                  <ul>
+                    <li><a href="#">PHP <span class="badge pull-right">23</span></a></li>
+                    <li><a href="#">Java <span class="badge pull-right">10</span></a></li>
+                    <li><a href="#">Paython <span class="badge pull-right">10</span></a></li>
+                    <li><a href="#">ASP <span class="badge pull-right">17</span></a></li>
+                    <li><a href="#">C++ <span class="badge pull-right">16</span></a></li>
+                    <li><a href="#">C# <span class="badge pull-right">20</span></a></li>
+                    <li><a href="#">Node.js ' %} <span class="badge pull-right">14</span></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="sidebar-widget">
+                <h5 class="widget-title">Web development</h5>
+                <div class="widget-body">
+                  <ul>
+                    <li><a href="#">HTML <span class="badge pull-right">27</span></a></li>
+                    <li><a href="#">CSS <span class="badge pull-right">3</span></a></li>
+                    <li><a href="#">Javascript <span class="badge pull-right">17</span></a></li>
+                    <li><a href="#">Angular <span class="badge pull-right">20</span></a></li>
+                    <li><a href="#">React <span class="badge pull-right">13</span></a></li>
+                    <li><a href="#">Bootstrap <span class="badge pull-right">10</span></a></li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="sidebar-widget">
+                <h5 class="widget-title">Mobile App</h5>
+                <div class="widget-body">
+                  <ul>
+                    <li><a href="#">Android Development <span class="badge pull-right">10</span></a></li>
+                    <li><a href="#">IOS Development <span class="badge pull-right">17</span></a></li>
+                    <li><a href="#">Java <span class="badge pull-right">16</span></a></li>
+                    <li><a href="#">Swift <span class="badge pull-right">20</span></a></li>
+                    <li><a href="#">React Native <span class="badge pull-right">14</span></a></li>
+                    <li><a href="#">Ionic <span class="badge pull-right">7</span></a></li>
+                    <li><a href="#">Kotlin <span class="badge pull-right">10</span></a></li>
+                  </ul>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="col-lg-9 col-md-8">
+
+             <div class="row course-details scrollme" data-content="<h4>Hello world!</h4>">
+              <div class="col-md-12">
+               <div class="course">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="course-image">
+                      <img src="{% static '/images/courses/01.jpg" class="course-img" alt="Course title" width="100%">
+                      <div class="course-heading">
+                        <div class="course-title">
+                         <h4>Prepare your next project files</h4>
+                        </div>
+                        <p>
+                          <span class="fa fa-user"></span> Ead Hassan
+                          <span class="fa fa-tags"></span> Web Development, HTML
+                          <span class="fa fa-clock-o"></span> 6 Hours
+                          <span class="fa fa-users"></span> 32 students
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="course-content">
+                      <div class="tabbable">
+                        <ul class="nav nav-tabs nav-justified">
+                          <li class="active"><a data-toggle="tab" href="#courseoverview"><i class="fa fa-file-text"></i> Overview</a></li>
+                          <li><a data-toggle="tab" href="#coursevideos"><i class="fa fa-video-camera"></i> Videos</a></li>
+                          <li><a data-toggle="tab" href="#coursefiles"><i class="fa fa-download"></i> Course sources</a></li>
+                          <li><a data-toggle="tab" href="#coursereviews"><i class="fa fa-star"></i> Reviews</a></li>
+                        </ul>
+                        <div class="tab-content full-content">
+                          <div class="course-overview tab-pane fade in active" id="courseoverview">
+
+                            <div class="js-simple-collapse js-simple-collapse--what-you-get" data-purpose="course-objectives" data-more="View More" style="max-height: none;">
+                              <div class="js-simple-collapse-inner">
+                                <div>
+                                  <div>
+                                    <h4>What Will I Learn?</h4>
+                                  </div>
+                                  <ul>
+                                    <li >
+                                      <span class="fa fa-check"></span>
+                                      <span>Have an intermediate skill level of Python programming.</span>
+                                    </li>
+                                    <li>
+                                        <span class="fa fa-check"></span>
+                                        <span>Use the Jupyter Notebook Environment.</span>
+                                    </li>
+                                    <li>
+                                      <span class="fa fa-check"></span>
+                                      <span>Use the numpy library to create and manipulate arrays.</span>
+                                    </li>
+                                    <li>
+                                      <span class="fa fa-check"></span>
+                                      <span >Use the pandas module with Python to create and structure data.</span>
+                                    </li>
+                                    <li>
+                                      <span class="fa fa-check"></span>
+                                      <span>Learn how to work with various data formats within python, including: JSON,HTML, and MS Excel Worksheets.</span>
+                                    </li>
+                                    <li>
+                                      <span class="fa fa-check"></span>
+                                      <span>Create data visualizations using matplotlib and the seaborn modules with python.</span>
+                                    </li>
+                                    <li>
+                                      <span class="fa fa-check"></span>
+                                      <span>Have a portfolio of various data analysis projects.</span>
+                                    </li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <hr class="style11">
+                            <div>
+                              <div>
+                                <h4>Description</h4>
+                                <p><strong>This course will give you the resources to learn python and effectively use it analyze and visualize data! Start your career in Data Science!</strong></p>
+                                <p>You'll get a full understanding of how to program with Python and how to use it in conjunction with scientific computing modules and libraries to analyze data.</p>
+                                <p>You will also get lifetime access to over 100 example python code notebooks, new and updated videos, as well as future additions of various data analysis projects that you can use for a portfolio to show future employers!</p>
+                                <p><strong>By the end of this course you will:</strong></p>
+                                <p>- Have an understanding of how to program in Python.</p>
+                                <p>- Know how to create and manipulate arrays using numpy and Python.</p>
+                                <p>- Know how to use pandas to create and analyze data sets.</p>
+                                <p>- Know how to use matplotlib and seaborn libraries to create beautiful data visualization.</p>
+                                <p>- Have an amazing portfolio of example python data analysis projects!</p>
+                                <p>- Have an understanding of Machine Learning and SciKit Learn!</p>
+                                <p>With 100+ lectures and over 20 hours of information and more than 100 example python code notebooks, you will be excellently prepared for a future in data science!</p>
+                                <h5>
+                                  Who is the target audience?
+                                </h5>
+                                <ul>
+                                  <li>Anyone interested in learning more about python, data science, or data visualizations.</li>
+                                  <li>Anyone interested about the rapidly expanding world of data science!</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <hr class="style11">
+                            <div>
+                              <h4>Requirements</h4>
+                              <div>
+                                <ul>
+                                  <li>Basic math skills.</li>
+                                  <li>Basic to Intermediate Python Skills</li>
+                                  <li>Have a computer (either Mac, Windows, or Linux)</li>
+                                  <li>Desire to learn!</li>
+                                </ul>
+                              </div>
+                            </div>
+
+                          </div>
+                          <div class="course-videos tab-pane fade" id="coursevideos">
+                            <div class="panel-group" id="videos" role="tablist" aria-multiselectable="false">
+
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="sectionheading_1">
+                                  <h4 class="panel-title">
+                                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#videos" href="#section_1" aria-expanded="true" aria-controls="section_1">
+                                      1. Introductions
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="section_1" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="sectionheading_1">
+                                  <div class="panel-body">
+                                    <table class="table table-striped">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=-_h-YX1CeUs">1.1 Course introduction
+                                              <div class="title hidden">
+                                                FeastCMS - video preview
+                                              </div>
+                                              <div class="caption hidden">
+                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                              </div>                                              
+                                            </a>
+                                          </td>
+                                          <td><a href="#"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=GPsClvKuNW0">1.2 Course Requirements
+                                              <div class="title hidden">
+                                                FeastCMS - video preview
+                                              </div>
+                                              <div class="caption hidden">
+                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                              </div>                                              
+                                            </a>
+                                          </td>
+                                          <td><a href="#"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div><!--/.panel-->
+                              
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="sectionheading_2">
+                                  <h4 class="panel-title">
+                                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#videos" href="#section_2" aria-expanded="false" aria-controls="section_2">
+                                      2. Ideas Compilation
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="section_2" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sectionheading_2">
+                                  <div class="panel-body">
+                                    <table class="table table-striped">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=_VNuXCTfRJw">2.2 Ideas and Insperation
+                                              <div class="title hidden">
+                                                FeastCMS - video preview
+                                              </div>
+                                              <div class="caption hidden">
+                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                              </div>                                              
+                                            </a>
+                                          </td>
+                                          <td><a href="#"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=_SovZDUb7vE">2.2 Research
+                                              <div class="title hidden">
+                                                FeastCMS - video preview
+                                              </div>
+                                              <div class="caption hidden">
+                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                              </div>                                              
+                                            </a>
+                                          </td>
+                                          <td><a href="#"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div><!--/.panel-->
+                              
+                              <div class="panel panel-default">
+                                <div class="panel-heading" role="tab" id="sectionheading_3">
+                                  <h4 class="panel-title">
+                                    <a class="accordion-toggle" role="button" data-toggle="collapse" data-parent="#videos" href="#section_3" aria-expanded="false" aria-controls="section_3">
+                                      3. Prepare Your files
+                                    </a>
+                                  </h4>
+                                </div>
+                                <div id="section_3" class="panel-collapse collapse" role="tabpanel" aria-labelledby="sectionheading_3">
+                                  <div class="panel-body">
+                                    <table class="table table-striped">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=30QoJtppGcI">3.1 Prepare required plugins
+                                              <div class="title hidden">
+                                                FeastCMS - video preview
+                                              </div>
+                                              <div class="caption hidden">
+                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                              </div>                                              
+                                            </a>
+                                          </td>
+                                          <td><a href="#"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                        <tr>
+                                          <td>
+                                            <a data-fancybox="gallery" href="https://www.youtube.com/watch?v=uL30JI44_FQ">3.2 Prepare project structure
+                                              <div class="title hidden">
+                                                FeastCMS - video preview
+                                              </div>
+                                              <div class="caption hidden">
+                                                A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+                                              </div>                                              
+                                            </a>
+                                          </td>
+                                          <td><a href="#"><i class="fa fa-eye"></i></a></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </div>
+                              </div><!--/.panel-->
+
+                            </div>
+                          </div>
+
+                          <div class="course-files tab-pane fade" id="coursefiles">
+                            <p>A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath.</p>
+                          </div>
+
+                          <div class="course-reviews tab-pane fade" id="coursereviews">
+                            
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                   
+                  </div>
+                </div>
+
+               </div><!--/.course-->
+              </div><!--/.col-md-4-->
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h5>Usefel link</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Our services</h5>
+          <ul>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Free Sources</a></li>
+            <li><a href="#">Important advices</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Support and Help</h5>
+          <ul>
+            <li><a href="#">Instructions</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 info">
+          <h5>About us</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eum quas labore eligendi ullam, aut blanditiis reprehenderit nostrum eveniet sed autem, quisquam vero quod qui.</p>
+        </div>
+      </div>
+    </div>
+    <div class="second-bar">
+     <div class="container">
+        <h2 class="logo">
+          <a href="#"> <img src="{% static '/images/logo-transparent-small.png ' %}" alt="Grade A. - Online courses HTML Template" height="28"></a>
+        </h2>
+        <div class="social-icons">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{% static '/js/jquery.min.js ' %}"></script>
+  <script src="{% static '/js/jquery.easing.min.js ' %}"></script>
+  <script src="{% static '/js/jquery.stellar.js ' %}"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{% static '/js/bootstrap.min.js ' %}"></script>
+  <script src="{% static '/js/bootstrap-dropdownhover.min.js ' %}"></script>
+  <script src="{% static '/js/bootstrap-better-nav.min.js ' %}"></script>
+
+  <!-- animsition.js ' %} -->
+  <script src="{% static '/js/animsition.min.js ' %}"></script>
+
+  <!-- headhesive JS -->
+  <script src="{% static '/js/headhesive.min.js ' %}"></script>
+
+  <!-- typedJS -->
+  <script src="{% static '/js/typed.min.js ' %}"></script>
+
+  <!-- Scroll me -->
+  <script src="{% static '/js/jquery.scrollme.min.js ' %}"></script>
+
+  <!-- Fancybox JS -->
+  <script src="{% static '/js/jquery.fancybox.min.js ' %}"></script>
+  <script src="{% static '/js/fancybox/thumbs.js ' %}"></script>
+  <script src="{% static '/js/fancybox/media.js ' %}"></script>
+
+ <!-- Theme scripts -->
+  <script src="{% static '/js/main.js ' %}"></script>
+
+</body>
+
+<!-- Mirrored from demo.forward-web.com/grade-a/course-details.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Nov 2019 14:10:52 GMT -->
+</html>

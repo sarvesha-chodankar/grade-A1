@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<!-- Mirrored from demo.forward-web.com/grade-a/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Nov 2019 14:10:51 GMT -->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Grade A. - Online courses HTML Template</title>
+  <!-- Normalize -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/normalize.css ' %}">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap.min.css ' %}">
+  <!-- <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-rtl.min.css ' %}"> -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-dropdownhover.min.css ' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/bootstrap-better-nav.min.css ' %}">
+  <!-- animsition.css ' %} -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/animsition.min.css ' %}">
+  <!-- Fontawesome -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css ' %}">
+  <!-- Animate.css ' %} -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/animate.min.css ' %}">
+  <!-- Fancybox.css ' %} -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/jquery.fancybox.min.css ' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/fancybox/thumbs.css ' %}">
+  <!-- Theme style -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css ' %}">
+
+  <!-- Favicon -->
+  <link rel="apple-touch-icon" sizes="57x57" href="{% static 'images/icon/apple-icon-57x57.png ' %}">
+  <link rel="apple-touch-icon" sizes="60x60" href="{% static 'images/icon/apple-icon-60x60.png ' %}">
+  <link rel="apple-touch-icon" sizes="72x72" href="{% static 'images/icon/apple-icon-72x72.png ' %}">
+  <link rel="apple-touch-icon" sizes="76x76" href="{% static 'images/icon/apple-icon-76x76.png ' %}">
+  <link rel="apple-touch-icon" sizes="114x114" href="{% static 'images/icon/apple-icon-114x114.png ' %}">
+  <link rel="apple-touch-icon" sizes="120x120" href="{% static 'images/icon/apple-icon-120x120.png ' %}">
+  <link rel="apple-touch-icon" sizes="144x144" href="{% static 'images/icon/apple-icon-144x144.png ' %}">
+  <link rel="apple-touch-icon" sizes="152x152" href="{% static 'images/icon/apple-icon-152x152.png ' %}">
+  <link rel="apple-touch-icon" sizes="180x180" href="{% static 'images/icon/apple-icon-180x180.png ' %}">
+  <link rel="icon" type="image/png" sizes="192x192"  href="{% static 'images/icon/android-icon-192x192.png ' %}">
+  <link rel="icon" type="image/png" sizes="32x32" href="{% static 'images/icon/favicon-32x32.png ' %}">
+  <link rel="icon" type="image/png" sizes="96x96" href="{% static 'images/icon/favicon-96x96.png ' %}">
+  <link rel="icon" type="image/png" sizes="16x16" href="{% static 'images/icon/favicon-16x16.png ' %}">
+  <link rel="manifest" href="https://demo.forward-web.com/manifest.js ' %}on">
+  <meta name="msapplication-TileColor" content="#0c2461">
+  <meta name="msapplication-TileImage" content="https://arfascinateshelters.com/omplack/365">
+  <meta name="theme-color" content="#0c2461">
+
+  <!--[if lt IE 9]>
+  <script src="{% static 'js/html5shiv.js ' %}"></script>
+  <script src="{% static 'js/respond.min.js ' %}"></script>
+  <![endif]-->       
+</head>
+<body class="loading">
+  <!--<div class="loading-container">-->
+  <!--  <div id="loader"></div>  -->
+  <!--</div>-->
+  <div class="animsition-overlay" data-animsition-overlay="true">
+
+  <nav class="main-menu">
+    <div class="top-bar">
+     <div class="container">
+      <ul class="nav navbar-nav pull-left">
+       <li><a href="#">About Us</a></li>
+       <li><a href="#">User Policies</a></li>
+       <li><a href="#">Contact</a></li>
+      </ul>
+      <ul class="nav navbar-nav pull-right">
+       <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+       <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+       <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+       <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+      </ul>    
+     </div>
+    </div>
+    <div class="main-navbar">
+     <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button> <!--/.navbar-toggle-->
+        <a href="index.html" class="navbar-brand animsition-link">
+          <img src="{% static 'images/logo.png ' %}" class="img-responsive logo-lg" alt="Grade A. - Online courses HTML Template" height="70">
+          <img src="{% static 'images/logo-small.png ' %}" class="img-responsive logo-sm" alt="Grade A. - Online courses HTML Template" height="50">
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse" data-hover="dropdown" data-animations="fadeInDownNew fadeInRightNew fadeInUpNew fadeInLeftNew">
+
+        <ul class="nav navbar-nav pull-right">
+          <li class="dropdown dropdown-main">
+            <a href="index.html" class="dropdown-toggle animsition-link" data-hover="dropdown" data-toggle="dropdown">
+            Home <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover dropdown-animation animated fadeIn">
+              <li><a href="index2.html" class="animsition-link">Home 2</a></li>
+              <li><a href="index3.html">Home 3</a></li>
+            </ul>            
+          </li>
+          <li class="dropdown dropdown-main">
+            <a href="about.html" class="dropdown-toggle animsition-link" data-hover="dropdown" data-toggle="dropdown">About Us <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover dropdown-animation animated fadeIn">
+              <li><a href="#">Our vision</a></li>
+              <li><a href="#">Our Services</a></li>
+              <li><a href="#">Our team</a></li>
+              <li><a href="#">Support us</a></li>
+            </ul>            
+          </li>
+          <li class="dropdown mega-dropdown dropdown-main">
+            <a href="courses.html" class="dropdown-toggle animsition-link" data-toggle="dropdown">Courses <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover mega-dropdown-menu row dropdown-animation animated fadeIn">
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">ASP</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">ASP</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">ASP</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <ul>
+                  <li>
+                    <img src="{% static 'images/courses-bg.png ' %}" class="img-responsive screen-img mt10">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="dropdown mega-dropdown dropdown-main">
+            <a href="resources.html" class="dropdown-toggle animsition-link" data-toggle="dropdown">Resources <span class="fa fa-angle-down dropdown-arrow"></span></a>
+            <ul class="dropdown-menu dropdown-subhover mega-dropdown-menu row dropdown-animation animated fadeIn">
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web design</li>
+                  <li><a href="#">HTML</a></li>
+                  <li><a href="#">CSS</a></li>
+                  <li><a href="#">Javascript</a></li>
+                  <li><a href="#">Bootstrap</a></li>
+                  <li><a href="#">Angular</a></li>
+                  <li><a href="#">React</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Web development</li>
+                  <li><a href="#">PHP</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">ASP</a></li>
+                  <li><a href="#">C++</a></li>
+                  <li><a href="#">C#</a></li>
+                  <li><a href="#">Node.js ' %}</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 col-sm-4">
+                <ul>
+                  <li class="dropdown-header">Mobile Apps</li>
+                  <li><a href="#">Android Development</a></li>
+                  <li><a href="#">IOS Development</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">Ionic</a></li>
+                  <li><a href="#">Kotlin</a></li>
+                  <li><a href="#">React Native</a></li>
+                </ul>
+              </li>
+              <li class="col-lg-3 col-md-3 hidden-sm hidden-xs">
+                <ul>
+                  <li>
+                    <img src="{% static 'images/resources-bg.png ' %}" class="img-responsive screen-img mt10">
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li class="active"><a href="contact.html" class="animsition-link">Contact</a></li>
+        </ul> <!--/.nav -->
+
+      </div><!-- /.navbar-collapse-->
+     </div>   
+    </div>
+  </nav>
+
+  <section class="page-banner">
+    <div class="container">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      <div class="page-info">
+        <ul class="pull-left breadcrumb">
+          <li><a href="index.html"><i class="fa fa-home"></i>Home</a></li>
+          <li class="active">Contact</li>
+        </ul>
+        <ul class="pull-right social-share">
+          <li><a href="index.html"><i class="fa fa-lg fa-facebook"></i></a></li>
+          <li><a href="index.html"><i class="fa fa-lg fa-twitter"></i></a></li>
+          <li><a href="index.html"><i class="fa fa-lg fa-google-plus"></i></a></li>
+          <li><a href="index.html"><i class="fa fa-lg fa-instagram"></i></a></li>
+        </ul>
+      </div>
+    </div><!--/.container-->
+  </section>
+
+  <section class="inner-page">
+    <div class="container">
+      <div
+        id="mapBox"
+        class="mapBox"
+        data-lat="27.252516"
+        data-lon="33.830238"
+        data-zoom="17"
+        data-info="Next to El-Wafa Garden, Hurghada, Red Sea, EG"
+        data-mlat="27.252516"
+        data-mlon="33.830238"
+      ></div>
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="contact_info">
+            <div class="info_item">
+              <i class="fa fa-home"></i>
+              <h6>Next to El-Wafa Garden</h6>
+              <p>Hurghada, Red Sea, EG</p>
+            </div>
+            <div class="info_item">
+              <i class="fa fa-phone"></i>
+              <h6><a href="#">00 (20) 109 606 8008</a></h6>
+              <p>Mon to Fri 9am to 6 pm</p>
+            </div>
+            <div class="info_item">
+              <i class="fa fa-envelope"></i>
+              <h6><a href="mailto:info@forward-web.com">info@forward-web.com</a></h6>
+              <p>Send us your query anytime!</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-9">
+          <form class="row contact_form" action="https://demo.forward-web.com/grade-a/contact_process.php" method="post" id="contactForm" novalidate="novalidate">
+            <div class="col-md-6">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required=""/>
+                <p class="form-info text-danger" id="name-info"></p>
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required=""/>
+                <p class="form-info text-danger" id="email-info"></p>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="subject" name="subject" placeholder="Enter Subject" required=""/>
+                <p class="form-info text-danger" id="subject-info"></p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="message" rows="1" placeholder="Enter Message" required=""></textarea>
+                <p class="form-info text-danger" id="message-info"></p>
+              </div>
+            </div>
+            <div class="col-md-12 text-right">
+              <div class="responde alert text-center" style="display: none;"></div>
+              <button type="button" onClick="sendContact();" class="btn submit-btn">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-3">
+          <h5>Usefel link</h5>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contact us</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Our services</h5>
+          <ul>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">Free Sources</a></li>
+            <li><a href="#">Important advices</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3">
+          <h5>Support and Help</h5>
+          <ul>
+            <li><a href="#">Instructions</a></li>
+            <li><a href="#">Help center</a></li>
+            <li><a href="#">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col-sm-3 info">
+          <h5>About us</h5>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure eum quas labore eligendi ullam, aut blanditiis reprehenderit nostrum eveniet sed autem, quisquam vero quod qui.</p>
+        </div>
+      </div>
+    </div>
+    <div class="second-bar">
+     <div class="container">
+        <h2 class="logo">
+          <a href="#"> <img src="{% static 'images/logo-transparent-small.png ' %}" alt="Grade A. - Online courses HTML Template" height="28"></a>
+        </h2>
+        <div class="social-icons">
+          <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+          <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+          <a href="#" class="google"><i class="fa fa-google-plus"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </div>
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="{% static 'js/jquery.min.js ' %}"></script>
+  <script src="{% static 'js/jquery.easing.min.js ' %}"></script>
+  <script src="{% static 'js/jquery.stellar.js ' %}"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="{% static 'js/bootstrap.min.js ' %}"></script>
+  <script src="{% static 'js/bootstrap-dropdownhover.min.js ' %}"></script>
+  <script src="{% static 'js/bootstrap-better-nav.min.js ' %}"></script>
+
+  <!-- animsition.js ' %} -->
+  <script src="{% static 'js/animsition.min.js ' %}"></script>
+
+  <!-- headhesive JS -->
+  <script src="{% static 'js/headhesive.min.js ' %}"></script>
+
+  <!-- typedJS -->
+  <script src="{% static 'js/typed.min.js ' %}"></script>
+
+  <!-- Scroll me -->
+  <script src="{% static 'js/jquery.scrollme.min.js ' %}"></script>
+
+  <!-- Fancybox JS -->
+  <script src="{% static 'js/jquery.fancybox.min.js ' %}"></script>
+  <script src="{% static 'js/fancybox/thumbs.js ' %}"></script>
+  <script src="{% static 'js/fancybox/media.js ' %}"></script>
+
+  <!-- Google Maps API -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjCGmQ0Uq4exrzdcL6rvxywDDOvfAu6eE"></script>
+  <script src="{% static 'js/gmaps.min.js ' %}"></script>
+
+ <!-- Theme scripts -->
+  <script src="{% static 'js/main.js ' %}"></script>
+
+</body>
+
+<!-- Mirrored from demo.forward-web.com/grade-a/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 22 Nov 2019 14:10:51 GMT -->
+</html>
